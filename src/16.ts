@@ -24,7 +24,7 @@ console.log(guestList);
 let middleName: string = "Waqar Younus";
 let middleIndex: number = Math.floor(guestList.length / 2);
 
-// console.log(middleIndex); 
+// console.log(middleIndex);
 
 guestList.splice(middleIndex, 0, middleName);
 console.log(guestList);
@@ -35,7 +35,7 @@ guestList.push(endGuestName);
 console.log(guestList);
 
 // • Print a new set of invitation messages, one for each person in your list.
-
+console.log("Invitation Message for each List");
 for (let guest of guestList) {
   console.log(`Dear ${guest}, I'm inviting all of you for dinner `);
 }
