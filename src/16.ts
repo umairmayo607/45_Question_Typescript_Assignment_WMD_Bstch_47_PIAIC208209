@@ -1,3 +1,7 @@
+// More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+
+// • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
+
 let guestList: string[] = [
   "Babar Azam",
   "Virat Kohli",
@@ -5,10 +9,6 @@ let guestList: string[] = [
   "Benn Stoke",
   "Shanaka",
 ];
-
-// More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
-
-// • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
 
 for (let guest of guestList) {
   console.log(`Hello ${guest}, I found a bigger table `);
@@ -23,6 +23,9 @@ console.log(guestList);
 // • Add one new guest to the middle of your array.
 let middleName: string = "Waqar Younus";
 let middleIndex: number = Math.floor(guestList.length / 2);
+
+// console.log(middleIndex); 
+
 guestList.splice(middleIndex, 0, middleName);
 console.log(guestList);
 

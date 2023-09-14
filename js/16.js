@@ -1,5 +1,7 @@
 "use strict";
+// More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
 Object.defineProperty(exports, "__esModule", { value: true });
+// • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
 let guestList = [
     "Babar Azam",
     "Virat Kohli",
@@ -7,8 +9,6 @@ let guestList = [
     "Benn Stoke",
     "Shanaka",
 ];
-// More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
-// • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
 for (let guest of guestList) {
     console.log(`Hello ${guest}, I found a bigger table `);
 }
@@ -19,6 +19,7 @@ console.log(guestList);
 // • Add one new guest to the middle of your array.
 let middleName = "Waqar Younus";
 let middleIndex = Math.floor(guestList.length / 2);
+console.log(middleIndex);
 guestList.splice(middleIndex, 0, middleName);
 console.log(guestList);
 // • Use append() to add one new guest to the end of your list.
