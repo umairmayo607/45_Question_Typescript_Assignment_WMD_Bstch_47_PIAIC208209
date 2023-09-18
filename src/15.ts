@@ -4,7 +4,7 @@
  • Print a second set of invitation messages, one for each person who is still in your list.
 */
 
-let guestList: string[] = [
+export let guestList: string[] = [
   "Babar Azam",
   "Virat Kohli",
   "Kane Williamson",

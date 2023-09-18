@@ -5,7 +5,8 @@
  • Print a second set of invitation messages, one for each person who is still in your list.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
-let guestList = [
+exports.guestList = void 0;
+exports.guestList = [
     "Babar Azam",
     "Virat Kohli",
     "Kane Williamson",
@@ -15,13 +16,13 @@ let guestList = [
 let cantCome = "Benn Stoke";
 console.log(`${cantCome} will not come to dinner due to some reason`);
 let newGuest = "Bahu Bali";
-let indexcantcome = guestList.indexOf(cantCome);
+let indexcantcome = exports.guestList.indexOf(cantCome);
 // console.log(indexcantcome);
 if (indexcantcome !== -1) {
-    guestList[indexcantcome] = newGuest;
+    exports.guestList[indexcantcome] = newGuest;
 }
 // console.log(guestList);
 console.log("Again Invitation after correction of name:");
-guestList.forEach((guest) => {
+exports.guestList.forEach((guest) => {
     console.log(`Dear ${guest} you are invited in my walima which are held on `);
 });
