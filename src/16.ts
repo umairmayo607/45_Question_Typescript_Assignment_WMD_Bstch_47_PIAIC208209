@@ -36,6 +36,8 @@ console.log(guestList);
 
 // • Print a new set of invitation messages, one for each person in your list.
 console.log("Invitation Message for each List");
-for (let guest of guestList) {
-  console.log(`Dear ${guest}, I'm inviting all of you for dinner `);
+for (let AllguestWhichWeAreInviting of guestList) {
+  console.log(
+    `Dear ${AllguestWhichWeAreInviting}, I'm inviting all of you for dinner `
+  );
 }
