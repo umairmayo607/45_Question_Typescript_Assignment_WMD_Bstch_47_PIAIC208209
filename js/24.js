@@ -20,6 +20,7 @@ const result2 = val1 || val2; // Logical "or" operation
 console.log(result1); // Output: false
 console.log(result2); // Output: true
 // Test whether an item is in a array:
+//True:
 let myArray = [1, 2, 3, 4, 5];
 const ToFind = 3;
 if (myArray.includes(ToFind)) {
