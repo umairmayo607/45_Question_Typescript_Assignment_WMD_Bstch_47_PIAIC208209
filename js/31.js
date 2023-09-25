@@ -1,8 +1,8 @@
 "use strict";
-// Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
-// • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+// No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
 Object.defineProperty(exports, "__esModule", { value: true });
-// // • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+// • If the list is empty, print the message We need to find some users!
+console.log("\nFor non Empty username: \n");
 let userName = ["admin", "umair", "ali", "zeshan", "basit"];
 //We are useing void because we have no return statement:
 function greeting() {
@@ -15,5 +15,8 @@ function greeting() {
         }
     }
 }
-exports.default = greeting;
 greeting();
+// • Remove all of the usernames from your array, and make sure the correct message is printed.
+userName = [];
+console.log("\nWe need to find some user: ");
+console.log(userName);

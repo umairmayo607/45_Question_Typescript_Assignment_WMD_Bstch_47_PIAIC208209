@@ -114,3 +114,5 @@ if (age < 2) {
 } else {
   console.log(`Age is ${age}, the person is  elder.`);
 }
+
+

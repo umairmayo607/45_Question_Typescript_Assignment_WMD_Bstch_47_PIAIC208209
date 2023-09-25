@@ -6,7 +6,7 @@
 let userName: string[] = ["admin", "umair", "ali", "zeshan", "basit"];
 
 //We are useing void because we have no return statement:
-function greeting(): void {
+ export default function greeting(): void {
   for (const i in userName) {
     if (userName[i].toLowerCase() === "admin") {
       console.log("Hello admin, would you like to see a status report?");
