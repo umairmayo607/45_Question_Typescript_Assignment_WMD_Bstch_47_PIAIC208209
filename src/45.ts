@@ -9,6 +9,7 @@ function allCars(
     manufacture,
     model,
   };
+  //Declare for properties parameter :
   for (const [first, second] of properties) {
     car[first] = second;
   }
